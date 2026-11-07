@@ -1,4 +1,4 @@
-![](assets/long_banner.png)
+(assets/long_banner.png)
 
 <br>
 
@@ -27,9 +27,9 @@ Features :
 # ⚙️ Installation
 
 ```bash
-$ pip3 install pipx
-$ pipx ensurepath
-$ pipx install ghunt
+$ install pipx
+$  ensurepath
+$  install ghunt
 ```
 It will automatically use venvs to avoid dependency conflicts with other projects.
 
@@ -47,8 +47,7 @@ $ ghunt login
 
 Choice =>
 ```
-
-Then, use GHunt Companion to complete the login.
+use GHunt Companion to complete the login.
 
 The extension is available on the following stores :\
 \
@@ -58,12 +57,9 @@ The extension is available on the following stores :\
 
 Then, profit :
 ```bash
-Usage: ghunt [-h] {login,email,gaia,drive,geolocate} ...
-
-Positional Arguments:
-  {login,email,gaia,drive,geolocate}
-    login               Authenticate GHunt to Google.
-    email               Get information on an email address.
+Usage: ghunt [-h] {login,email,gaia,,geolocate}
+ tGoogle.
+  email               Get information on an email address.
     gaia                Get information on a Gaia ID.
     drive               Get information on a Drive file or folder.
     geolocate           Geolocate a BSSID.
